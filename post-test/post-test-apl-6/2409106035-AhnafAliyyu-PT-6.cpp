@@ -159,7 +159,7 @@ void perbaruiKoleksi(rincian* koleksi, int jumlah) {
         cout << "Masukkan asal baru: ";
         getline(cin, (koleksi + indeks - 1)->asal);
         cout << "Masukkan tahun baru: ";
-        cin >> (koleksi + indeks - 1)->wktu.tahun; // Diubah menjadi input integer
+        cin >> (koleksi + indeks - 1)->wktu.tahun; 
         cin.ignore();
         cout << "Data berhasil diperbarui.\n";
     } else {
